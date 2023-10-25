@@ -1,5 +1,5 @@
 body{
-    font-family: "Roboto", "Raleway", sans-serif;
+    font-family: "Roboto", sans-serif;
     color: #434455;
     background-color: #FFFFFF;
 }
@@ -15,9 +15,10 @@ ul{
 
 .logo{
     color:  #4D5AE5;
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
     font-size: 18px;
-    line-height: 1.2; 
+    line-height: 1.17; 
     letter-spacing: 0.54px;
     text-transform: uppercase;
 }
@@ -29,7 +30,7 @@ ul{
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5; 
-    letter-spacing: 0.02;
+    letter-spacing: 0.02em;
 }
 .link:hover,
 .link:focus{
@@ -43,7 +44,7 @@ ul{
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5; 
-    letter-spacing: 0.02;
+    letter-spacing: 0.02em;
 }
 .address-link:hover,
 .address-link:focus{
@@ -59,35 +60,35 @@ ul{
     text-align: center;
     color: #FFFFFF;
     font-size: 56px;
-    line-height: 1.1; 
-    letter-spacing: 0.02;
+    line-height: 1.07; 
+    letter-spacing: 0.02em;
 }
 .button{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
     cursor: pointer;
     background-color: #4D5AE5;
 }
-.button:hover{
+.button:hover,
+.button:focus{
     background-color: #404BBF;
 }
-.botton-text{
-    color: #FFFFFF;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 1.5; 
-    letter-spacing: 0.04;
-}
+
 .feature{
     color:  #2E2F42;
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2; 
-    letter-spacing: 0.02;
+    letter-spacing: 0.02em;
 }
 .feature-text{
     color: #434455;
     font-size: 16px;
     line-height: 1.5; 
-    letter-spacing: 0.02;
+    letter-spacing: 0.02em;
 }
 .team{
     background-color:#F4F4FD;
@@ -97,7 +98,7 @@ ul{
     font-size: 36px;
     line-height: 1.11; 
     text-align: center;
-    letter-spacing: 0.02;
+    letter-spacing: 0.02em;
     text-transform: capitalize;
 }
 .team-item{
@@ -108,13 +109,13 @@ ul{
 font-size: 20px;
 font-weight: 500;
 line-height: 1.2; 
-letter-spacing: 0.02;
+letter-spacing: 0.02em;
 }
 .team-member-position{
     color: #434455;
     font-size: 16px;
     line-height: 1.5; 
-    letter-spacing: 0.02;
+    letter-spacing: 0.02em;
 
 }
 
@@ -125,7 +126,7 @@ letter-spacing: 0.02;
     font-size: 36px;
     line-height: 1.11; 
     text-align: center;
-    letter-spacing: 0.02;
+    letter-spacing: 0.02em;
     text-transform: capitalize;
 }
 .project-card-name{
@@ -133,12 +134,12 @@ letter-spacing: 0.02;
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2; 
-    letter-spacing: 0.02;
+    letter-spacing: 0.02em;
 }
 .project-card-content{
     font-size: 16px;
     line-height: 1.5; 
-    letter-spacing: 0.02;
+    letter-spacing: 0.02em;
 }
 
 /* Footer section */
@@ -150,7 +151,7 @@ letter-spacing: 0.02;
     color: #F4F4FD;
     font-size: 16px;
     line-height: 1.5; 
-    letter-spacing: 0.02; 
+    letter-spacing: 0.02em; 
 }
 .logo-studio-footer{
     color: #F4F4FD;
