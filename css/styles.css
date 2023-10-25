@@ -56,9 +56,9 @@ ul{
     background-color: #2E2F42;
 }
 .title{
-    color: #FFF;
-    font-size: 56px;
+    color: #FFFFFF;
     text-align: center;
+    font-size: 56px;
     line-height: 1.1; 
     letter-spacing: 0.02;
 }
@@ -70,7 +70,7 @@ ul{
     background-color: #404BBF;
 }
 .botton-text{
-    color: #FFF;
+    color: #FFFFFF;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5; 
