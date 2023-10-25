@@ -64,8 +64,6 @@ ul{
 .button{
     cursor: pointer;
     background-color: #4D5AE5;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-
 }
 .button:hover{
     background-color: #404BBF;
@@ -85,6 +83,7 @@ ul{
     letter-spacing: 0.02;
 }
 .feature-text{
+    color: #434455;
     font-size: 16px;
     line-height: 1.5; 
     letter-spacing: 0.02;
@@ -95,9 +94,13 @@ ul{
 .title-team{
     color: #2E2F42;
     font-size: 36px;
-    line-height: 1.1; 
+    line-height: 1.11; 
+    text-align: center;
     letter-spacing: 0.02;
     text-transform: capitalize;
+}
+.team-item{
+    background-color: #FFFFFF;
 }
 .team-member-name{
     color: #2E2F42;
@@ -107,10 +110,21 @@ line-height: 1.2;
 letter-spacing: 0.02;
 }
 .team-member-position{
+    color: #434455;
     font-size: 16px;
     line-height: 1.5; 
     letter-spacing: 0.02;
 
+}
+
+/*Portfolio*/ 
+.title-portfolio{
+    color: #2E2F42;
+    font-size: 36px;
+    line-height: 1.11; 
+    text-align: center;
+    letter-spacing: 0.02;
+    text-transform: capitalize;
 }
 .project-card-name{
     color: #2E2F42;
